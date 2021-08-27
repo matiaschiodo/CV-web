@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
 
         <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -22,56 +23,55 @@
                     <ul class="nav__list">
                         <li class="nav__item">
                             <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home'></i>Home
+                                <i class="bx bx-home"></i>Home
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#profile" class="nav__link">
-                                <i class='bx bx-user'></i>Profile
+                                <i class="bx bx-user"></i>Profile
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#education" class="nav__link">
-                                <i class='bx bx-book'></i>Education
+                                <i class="bx bx-book"></i>Education
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
-                                <i class='bx bx-receipt'></i>Skills
+                                <i class="bx bx-receipt"></i>Skills
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">
-                                <i class='bx bx-briefcase-alt'></i>Experience
+                                <i class="bx bx-briefcase-alt"></i>Experience
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#certificates" class="nav__link">
-                                <i class='bx bx-award'></i>Certificates
+                                <i class="bx bx-award"></i>Certificates
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#references" class="nav__link">
-                                <i class='bx bx-link-external' ></i>References
+                                <i class="bx bx-link-external"></i>References
                             </a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt' ></i>
+                    <i class="bx bx-grid-alt" ></i>
                 </div>
             </nav>
         </header>
 
         <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
             <div class="resume" id="area-cv">
                 <div class="resume__left">
                     <!--========== HOME ==========-->
@@ -91,20 +91,22 @@
 
                         <div class="home__address bd-grid">
                             <span class="home__information">
-                                <i class='bx bx-map home__icon'></i> Mitre 1480 3C Rosario - Argentina
+                                <i class="bx bx-map home__icon"></i> Rosario - Argentina
                             </span>
                             <span class="home__information">
-                                <i class='bx bx-envelope home__icon'></i> matiaschiodo@gmail.com
+                                <i class="bx bx-envelope home__icon"></i> matiaschiodo@gmail.com
                             </span>
                             <span class="home__information">
-                                <i class='bx bx-phone home__icon'></i> +54 9 3464 562629
+                                <i class="bx bx-phone home__icon"></i> +54 9 3464 562629
                             </span>
                         </div>
                         <!-- Theme change button -->
-                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
 
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
-                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                        <!-- Button to download the pdf -->
+                        <a download="" href="assets/pdf/Matías Chiodo CV.pdf">
+                            <i class="bx bx-download generate-pdf" title="Download PDF"></i>
+                        </a>
                     </section> 
                     
                     <!--========== SOCIAL ==========-->
@@ -113,16 +115,13 @@
 
                         <div class="social__container bd-grid">
                             <a href="https://www.linkedin.com/in/matias-chiodo-308056194/" target="_blank" class="social__link">
-                                <i class='bx bxl-linkedin-square social__icon' ></i> @matiaschiodo
+                                <i class="bx bxl-linkedin-square social__icon" ></i> @matiaschiodo
                             </a>
                             <a href="https://github.com/matiaschiodo" target="_blank" class="social__link">
-                                <i class='bx bxl-github social__icon' ></i> @matiaschiodo
+                                <i class="bx bxl-github social__icon" ></i> @matiaschiodo
                             </a>
-                            <a href="https://twitter.com/ChiodoMatias" target="_blank" class="social__link">
-                                <i class='bx bxl-twitter social__icon' ></i> @ChiodoMatias
-                            </a>
-                            <a href="https://www.instagram.com/matichiodo/" target="_blank" class="social__link">
-                                <i class='bx bxl-instagram social__icon' ></i></i> @matichiodo
+                            <a href="https://platzi.com/p/matiaschiodo/" target="_blank" class="social__link">
+                                <img src="https://icons-for-free.com/iconfiles/png/512/platzi-1324440213777394405.png" alt="Platzi"> @matiaschiodo
                             </a>
                         </div>
                     </section>
@@ -131,7 +130,7 @@
                     <section class="profile section" id="profile">
                         <h2 class="section-title">Profile</h2>
 
-                        <p class="profile__description">I am a third year student of the information systems engineering degree, passionate about computer science and programming. I am 20 years old and I am excited to seek new opportunities to develop as a professional in the world of work.</p>
+                        <p class="profile__description">My name is Matías, I am 20 years old, I was born in Casilda, Santa Fe, Argentina and I currently live in Rosario. I am a third year information systems engineering student, passionate about computer science and programming. I am excited to seek new opportunities to develop as a professional in the workplace.</p>
                     </section>
                     
                     <!--========== EDUCATION ==========-->
@@ -174,28 +173,25 @@
                         <div class="skills__content bd-grid">
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Python
+                                    <i class="bx bx-code-alt"></i>C/C++
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>C/C++
+                                    <i class="bx bx-code-alt"></i>Pascal
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Pascal
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Smalltalk
+                                    <i class="bx bx-code-alt"></i>Smalltalk
                                 </li>
                             </ul>
 
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>HTML
+                                    <i class="bx bxl-html5"></i>HTML
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>CSS
+                                    <i class="bx bxl-css3"></i>CSS
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>JavaScript
+                                    <i class="bx bxl-javascript" ></i>JavaScript
                                 </li>
                             </ul>
                         </div>
@@ -221,7 +217,7 @@
                                     <p class="experience__description">Composition of the web page in HTML.<br>
                                         Add the page layout with CSS.</p>
                                         <a href="https://tiendaonlinesuri.netlify.app/" target="_blank" class="social__link">
-                                            <i class='bx bx-link-alt social__icon'></i> Web page
+                                            <i class="bx bx-link-alt social__icon"></i> Web page
                                         </a>
                                 </div>
                             </div>
@@ -238,7 +234,7 @@
                                 <span class="certificates__company">Granted by Google</span>
                                 <p class="certificates__description">Learn to create your own professional web pages adaptable to different devices from the hand of the University of Alicante.</p>
                                 <a href="assets/pdf/certificado HTML CSS Google.pdf" target="_blank" class="social__link">
-                                    <br><i class='bx bx-link-alt social__icon'></i> Certificate
+                                    <br><i class="bx bx-link-alt social__icon"></i> Certificate
                                 </a>
                             </div>
                             <div class="ceritificates__content">
@@ -246,7 +242,21 @@
                                 <span class="certificates__company">Granted by Google</span>
                                 <p class="certificates__description">Learn to create your own professional web pages adaptable to different devices from the hand of the University of Alicante.</p>
                                 <a href="assets/pdf/certificado HTML CSS 2 Google.pdf" target="_blank" class="social__link">
-                                    <br><i class='bx bx-link-alt social__icon'></i>Certificate
+                                    <br><i class="bx bx-link-alt social__icon"></i>Certificate
+                                </a>
+                            </div>
+                            <div class="ceritificates__content">
+                                <h3 class="certificates__title">Professional JavaScript Course</h3>
+                                <span class="certificates__company">Granted by Platzi</span>
+                                <p class="certificates__description">Understand how the DOM works. Create plugins that give more functionalities to the video player. Implement events in an object according to the needs of your project.</p>
+                                <a href="https://platzi.com/p/matiaschiodo/curso/1642-course/diploma/detalle/ " target="_blank" class="social__link">
+                                    <br><i class="bx bx-link-alt social__icon"></i>Certificate
+                                </a>
+                            </div>
+                            <div class="ceritificates__content">
+                                <h3 class="certificates__company">View more</h3>
+                                <a href="https://platzi.com/p/matiaschiodo" target="_blank" class="social__link">
+                                    <br><i class="bx bx-link-alt social__icon"></i>Certificates
                                 </a>
                             </div>
                         </div>
@@ -296,18 +306,33 @@
 
                         <div class="interests__container bd-grid">
                             <div class="interests__content">
-                                <i class='bx bx-headphone interests__icon'></i>
+                                <i class="bx bx-headphone interests__icon"></i>
                                 <span class="interests__name">Music</span>
                             </div>
 
                             <div class="interests__content">
-                                <i class='bx bxs-plane-alt interests__icon'></i>
-                                <span class="interests__name">Travel</span>
+                                <i class="bx bx-book interests__icon"></i>
+                                <span class="interests__name">Read</span>
                             </div>
 
                             <div class="interests__content">
-                                <i class='bx bx-book interests__icon'></i>
-                                <span class="interests__name">Read</span>
+                                <i class="bx bxl-steam interests__icon"></i>
+                                <span class="interests__name">Videogames</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxl-visual-studio interests__icon" ></i>
+                                <span class="interests__name">Code</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-podcast interests__icon"></i>
+                                <span class="interests__name">Podcasts</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-plane-alt interests__icon"></i>
+                                <span class="interests__name">Travel</span>
                             </div>
                         </div>
                     </section>
@@ -317,11 +342,8 @@
 
         <!--========== SCROLL TOP ==========-->
         <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
         </a>
-
-        <!--========== HTML2PDF ==========-->
-        <script src="assets/js/html2pdf.bundle.min.js"></script>
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
