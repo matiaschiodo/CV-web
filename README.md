@@ -1,4 +1,3 @@
 # CV-web
 
-CV Web link:
-matiaschiodo.netlify.app
+<a> matiaschiodo.netlify.app </a>
