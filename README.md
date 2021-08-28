@@ -1,3 +1,3 @@
 # CV-web
 
-[Link](matiaschiodo.netlify.app)
+[Link](https://matiaschiodo.netlify.app/)
