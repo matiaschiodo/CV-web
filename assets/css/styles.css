@@ -12,6 +12,7 @@
 	--container-color: #FAFAFA;
 	--container-color-alt: #F0EFEF;
 	--body-color: #FCFCFC;
+	--invert-image: 25%;
 
   /*========== Font and typography ==========*/
 	--body-font: 'Poppins', sans-serif;
@@ -52,6 +53,7 @@ body.dark-theme {
 	--container-color: #212121;
 	--container-color-alt: #181616;
 	--body-color: #2B2B2B;
+	--invert-image: 75%;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -316,7 +318,7 @@ img {
 .social__link img {
 	height: 18px;
 	width: 18px;
-	filter: invert(50%);
+	filter: invert(var(--invert-image));
 	margin-right: 4px;
 	vertical-align: middle;
 }
